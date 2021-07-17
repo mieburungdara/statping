@@ -45,7 +45,7 @@ func InitEnvs() {
 	Params.SetDefault("ALLOW_REPORTS", true)
 	Params.SetDefault("POSTGRES_SSLMODE", "disable")
 	Params.SetDefault("NAME", "Statping Sample Data")
-	Params.SetDefault("DOMAIN", "192.168.0.28")
+	Params.SetDefault("DOMAIN", "localhost")
 	Params.SetDefault("DESCRIPTION", "This status page has sample data included")
 	Params.SetDefault("REMOVE_AFTER", 2160*time.Hour)
 	Params.SetDefault("CLEANUP_INTERVAL", 1*time.Hour)
